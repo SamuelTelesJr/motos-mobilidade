@@ -1,0 +1,23 @@
+{
+  "name": "motos-mobilidade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-native": "^0.80.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}

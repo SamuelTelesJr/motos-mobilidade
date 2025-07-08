@@ -7,17 +7,20 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "jest"
+    "test": "jest",
+    "server": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "express": "^5.1.0",
     "react": "^19.1.0",
     "react-native": "^0.80.1"
   },
   "devDependencies": {
-    "jest": "^30.0.4"
+    "jest": "^30.0.4",
+    "supertest": "^7.1.3"
   }
 }
